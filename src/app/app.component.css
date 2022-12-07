@@ -1,0 +1,136 @@
+/* You can add global styles to this file, and also import other style files */
+.carousel-inner{
+    max-height: 450px;
+}
+
+.btn-subscription{
+    background-color: #198754;
+    color: white;
+    border-radius:20px;
+    padding: 4px;
+    border :none;
+}
+
+.btn-subscription:hover{
+    border-color: #198754;
+    color: #198754;
+    background-color: white;
+}
+
+.bash{
+    color: red;
+    font-size: 39px;
+    margin: 10px;
+}
+
+.bashes{
+    color: #198754;
+    font-size: 39px;
+    margin: 10px;
+}
+
+.body1{
+   background-color: #f0d1d1; 
+   border-radius: 40px;
+}
+
+.body3{
+    background-color: #e3e357;
+    border-radius: 40px;
+}
+
+.body2{
+    background-color: #a2a2d9;
+    border-radius: 40px;
+}
+
+.body4{
+    background-color: #a3d8a3;
+    border-radius: 40px;
+}
+
+.btn-primary{
+    background-color: #198754 !important;
+    padding: 8px;
+    border-radius: 6px;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+.containerparticular{
+    background-color: #a3d8a3;
+    border-radius: 40px;
+}
+
+
+.swiper-slide-active .from-top,
+.swiper-slide-active .from-bottom,
+.active .from-top,
+.active .from-bottom {
+    transform: translateY(0);
+    opacity: 1
+}
+
+.swiper-slide-active .from-start,
+.swiper-slide-active .from-end,
+.active .from-start,
+.active .from-end {
+    transform: translateX(0);
+    opacity: 1
+}
+
+.swiper-slide-active .scale-up,
+.swiper-slide-active .scale-down,
+.active .scale-up,
+.active .scale-down {
+    transform: scale(1);
+    opacity: 1
+}
+
+.swiper-slide-cover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+.swiper-scale-effect .swiper-slide-cover {
+    transition: 8.5s ease-out;
+    transform: scale(1.1)
+}
+
+.swiper-scale-effect .swiper-slide.swiper-slide-active .swiper-slide-cover {
+    transform: scale(1)
+}
+
+
+.bg-contact-form-section{
+    background-color: #A3D8A3 !important;
+    border-radius: 30px !important;
+    color: white;
+}
+
+
+
+.form-control {
+    display: block;
+    width: 100%;
+    padding: 0.825rem 1rem;
+    font-weight: 400;
+    line-height: 1.4;
+    background-color: rgba(0, 0, 0, 0) !important;
+    background-clip: padding-box;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: 1px white solid;
+    border-radius: 12px;
+}
